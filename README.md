@@ -1,21 +1,14 @@
-# DGL 113 Week 02 Assignment
+# DGL 113 Week 03 Assignment
 
-1.  Create a new file `docs/app.js`.
-1.  Open `docs/index.html` in a new tab in your browser.
-1.  Add the required `<script>` element in `docs/index.html` just
-    before the closing `</body>` tag to load `app.js`
-1.  Create a function `addItem` in `app.js` with one parameter
-    `itemName` that logs the parameter to the console.
-1.  Add the required code to `index.html` to call the `addItem`
-    function with the correct argument each time the "Add oranges",
-    "Add apples", or "Add broccoli" buttons are pressed.
-1.  Add the required code to the `addItem` function to update the 
-    list of items in the shopping cart. 
-    HINT: you will need a global varialble to keep track of this.
-1.  Create a function `emptyCart` in `app.js` with no parameters that 
-    resets the cart to the empty string and updates the page.
-1.  Add the required code to the `index.html` page to call the `emptyCart`
-    function when the "Empty Cart" button is pressed.
+1. Create a function "addActivity" in "app.js" with no parameters that logs the funciton name to the console.
+1. Add the required code to "index.html" to call the "addActivity" function each time the "Add Activity To Bottom" button is clicked.
+1. Add the required code to the "addActivity" function to update the activity log. Each entry in the activity log will be a list item starting with a timestamp based on the current time and then then activity description pulled from the description input control. e.g.:
+    * 8:30:00 AM started eating
+    * 9:30:00 AM started studying
+    * 4:32:34 PM went for a hike
+    * 9:20:57 PM went to bed
+1. Create a function "removeActivity" in "app.js" with no parameters that removes one item from the top of the activity log.
+1. Add the required code to the "index.html" page to call the "removeActivity" function when the "Remove Activity From Top" button is pressed.
 1.  When everything is working, stage, commit, and sync (push) your changes.
 1.  In the "Actions" tab for the repository, 
     confirm that all the tests passed.

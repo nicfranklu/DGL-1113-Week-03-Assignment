@@ -1,5 +1,5 @@
 {
-  "name": "DGL-113-Week-02-Assignment",
+  "name": "DGL-113-Week-03-Assignment",
   "packageManager": "yarn@3.3.1",
   "jest": {
     "preset": "jest-puppeteer"
@@ -7,11 +7,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
-    "test-apples": "jest apples",
-    "test-oranges": "jest oranges",
-    "test-broccoli": "jest broccoli",
-    "test-combo": "jest combo",
-    "test-empty": "jest empty"
+    "test-add": "jest add",
+    "test-remove": "jest remove"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
