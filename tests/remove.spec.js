@@ -25,10 +25,10 @@ describe("index.html", () => {
     await page.waitForSelector('#activitylog');
     let elements = await page.$$('#activitylog li');
     expect( elements.length).toBe(2);
-    let value = await page.evaluate(el => el.innerText, elements[1]);
+    let value = await page.evaluate(el => el.innerText, elements[0]);
     value = value.trim();
     expect(value).toMatch(/sleep$/);
-    value = await page.evaluate(el => el.innerText, elements[2]);
+    value = await page.evaluate(el => el.innerText, elements[1]);
     value = value.trim();
     expect(value).toMatch(/study$/);
   });
